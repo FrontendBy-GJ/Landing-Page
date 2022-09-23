@@ -92,8 +92,39 @@ nav a {
 }
 /* header content end */
 
-.box {
-  height: 100px;
-  width: 100px;
-  border: 1px solid #000;
+/* .information start */
+.information {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 40px 0 150px 0;
 }
+.information h1 {
+  font-size: 36px;
+  font-weight: bold;
+  color: var(--drk-blue-clr);
+  margin-bottom: 40px;
+}
+.information .container {
+  display: flex;
+  justify-content: space-between;
+  width: 800px;
+}
+.boxes {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.boxes p {
+  width: 150px;
+  color: grey;
+  text-align: center;
+  padding-top: 10px;
+}
+.box {
+  height: 170px;
+  width: 170px;
+  border: 4px solid var(--btn-bg-clr);
+  border-radius: 15px;
+}
+/* .information end */
